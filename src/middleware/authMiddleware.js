@@ -13,7 +13,7 @@ const authMiddleware = async (req, res, next) => {
       return res.status(401).json({ msg: "No token provided" });
     }
 
-    // Extract token safely
+    
     const token = authHeader.startsWith("Bearer ")
       ? authHeader.split(" ")[1]
       : authHeader;
@@ -34,7 +34,7 @@ const authMiddleware = async (req, res, next) => {
     next();
 
   } catch (err) {
-    console.log("❌ AUTH ERROR:", err.message);
+    console.log("AUTH ERROR:", err.message);
 
     return res.status(403).json({
       msg: "Invalid or expired token",
