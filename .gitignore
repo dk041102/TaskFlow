@@ -1,6 +1,3 @@
-<<<<<<< HEAD
 .env
-node_modules
-=======
 node_modules/
->>>>>>> b6ac19f (Remove node_modules and update gitignore)
+.DS_Store
