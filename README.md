@@ -105,4 +105,4 @@ npm start
 | View dashboard | ✅ | ✅ |
 
 ## 👨‍💻 Author
-Built by [Your Name](https://github.com/YOUR_USERNAME)
+Built by [Deepak kumar](https://github.com/dk041102)
