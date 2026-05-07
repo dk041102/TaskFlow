@@ -23,6 +23,15 @@ exports.signup = async (req, res) => {
 res.json({ user, token });
 };
 
+exports.getAllUsers = async (req, res) => {
+  try {
+    const users = await User.find({}, '-password'); 
+    res.json(users);
+  } catch (err) {
+    res.status(500).json({ msg: err.message });
+  }
+};
+
 exports.login = async (req, res) => {
   const { email, password } = req.body;
 
