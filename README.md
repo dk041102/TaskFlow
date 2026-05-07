@@ -4,10 +4,6 @@ A full-stack project management web application that helps teams
 create projects, assign tasks, track progress, and collaborate 
 efficiently with role-based access control.
 
-## 🚀 Live Demo
-- Frontend: https://taskflowman.netlify.app
-- Backend: https://your-backend.up.railway.app
-
 ## ✨ Features
 
 - 🔐 JWT Authentication (Signup / Login)
